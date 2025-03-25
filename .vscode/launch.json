@@ -1,14 +1,21 @@
 {
     "configurations": [
-        {
-            "type": "java",
-            "name": "Spring Boot-GymTrackerApplication<gym-tracker>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "com.gymtracker.gym_tracker.GymTrackerApplication",
-            "projectName": "gym-tracker",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        }
-    ]
+			{
+				"type": "java",
+				"name": "GymCore",
+				"request": "launch",
+				"mainClass": "GymCore",
+				"projectName": "gym-tracker"
+			},
+			{
+				"type": "java",
+				"name": "Spring Boot-GymTrackerApplication<gym-tracker>",
+				"request": "launch",
+				"cwd": "${workspaceFolder}",
+				"mainClass": "com.gymtracker.gym_tracker.GymTrackerApplication",
+				"projectName": "gym-tracker",
+				"args": "",
+				"envFile": "${workspaceFolder}/.env"
+			}
+		]
 }
